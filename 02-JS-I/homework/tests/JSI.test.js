@@ -73,8 +73,8 @@ describe('nuevoModulo', function() {
 
 describe('devolverString(str)', function() {
   it('Deberia devolver el string provisto', function() {
-    let string = 'Henry';
-    expect(devolverString(string)).toBe(string);
+    let str= 'Henry';
+    expect(devolverString(str)).toBe(str);
   });
 });
 
@@ -225,9 +225,9 @@ describe('esPositivo(numero)', function() {
 });
 
 describe('agregarSimboloExclamacion(str)', function() {
-  it('Deberia agregar un signo de exclamacion al final del string', function() {
+  it('Deberia agregar un signo de exclamacion al final del str', function() {
     expect(agregarSimboloExclamacion('hello world')).toBe('hello world!');
-    expect(agregarSimboloExclamacion('Soy Henry')).toBe('Soy Henry!');
+   
   });
 });
 
